@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 
 public class Principal {
 
@@ -9,15 +9,25 @@ public class Principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String mensagem = "Olá turma!, de mensagem.";
+		Scanner read = new Scanner(System.in);
+		
+		String mensagem = "Olá turma.";
 		
 		System.out.println(mensagem + "\n");
 		
-		int agua = 40;
-		int luz = 20;
-		int gas = 20;
-		int fibra = 60;
+		int agua;
+		int luz;
+		int gas;
+		int fibra;
 		
+		System.out.println("Quantos euros gasta de agua?");
+		agua = read.nextInt();
+		System.out.println("\nQuantos euros gasta de luz?");
+		luz = read.nextInt();
+		System.out.println("\nQuantos euros gasta de gas?");
+		gas = read.nextInt();
+		System.out.println("\nQuantos euros gasta de fibra?");
+		fibra = read.nextInt();
 		
 		/*agua = 40;
 		luz = 20;
@@ -26,7 +36,12 @@ public class Principal {
 		
 		int despesas = agua + luz + gas + fibra;
 		
-		System.out.println(despesas);
+		System.out.println("\nGastos:\n\n 1 - Agua: " 
+				+ agua + " €\n 2 - Luz: " 
+				+ luz + " €\n 3 - Gás: " 
+				+ gas + " €\n 4 - Fibra: " 
+				+ fibra + " €\n\n Despesas totais (mensal): " 
+				+ despesas + " €\n Despesas totais (anual): " + despesas*12 + " €");
 	}
 
 }
