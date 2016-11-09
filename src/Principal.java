@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 import dia091116.TreinoArrays;
+import dia091116.Exe1;
 import dia091116.ExeArray;
 
 public class Principal {
@@ -13,7 +14,8 @@ public class Principal {
 		// TODO Auto-generated method stub
 
 		//new TreinoArrays();
-		new ExeArray();
+		//new ExeArray();
+		new Exe1();
 	}
 
 }
