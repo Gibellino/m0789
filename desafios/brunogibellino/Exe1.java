@@ -8,12 +8,12 @@ public class Exe1 {
 	/* 
 	 * Desafio nivel 2
 	 *
-	 * Cria um array multidimensional para guardar o numero do random como resultado dos jogos, 
-     * mostrar os resultados dos jogos (1º equipa introduzida joga com a 2º equipa ...);
+	 * 1) Cria um array multidimensional para guardar o numero do random como resultado dos jogos, 
+     * 	mostrar os resultados dos jogos (1º equipa introduzida joga com a 2º equipa ...);
 	 *
-	 * Criar um metodo para pedir 6 equipas para 3 jogos e guardar as equipas num array;
+	 * 2) Criar um metodo para pedir 6 equipas para 3 jogos e guardar as equipas num array;
 	 *
-	 * Criar um metodo para devolver um numero random de 0 a 10.
+	 * 3) Criar um metodo para devolver um numero random de 0 a 10.
 	*/ 
 	
 	 Exe1 me = new Exe1();
