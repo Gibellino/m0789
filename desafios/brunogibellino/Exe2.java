@@ -14,7 +14,8 @@ public class Exe2 {
 		/*
 		 * Desafio nivel 2
 		 * 
-		 * 1) Pedir um numero N e inserir num array N números
+		 * 1) Pedir um numero N e inserir num array N números;
+		 * 
 		 * 2) Verificar e mostrar quais são primos e quais não são.
 		 */
 		
