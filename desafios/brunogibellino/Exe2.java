@@ -33,16 +33,24 @@ public class Exe2 {
 			n1[i] = read.nextInt();
 		}
 		
-		for(int i=(n1[n]-1);i>=2;i-=1){
-			if((n1[i] % i) == 1){
-				b[i]=0;
+		for(int j=0; j<n;j++){
+			for(int i=(n1[j]-1);i>=2;i-=1){
+				if((n1[i] % i) == 1){
+					b[j]=0;
+				}
+		        else{
+		        	b[j]=1;
+		        }
+		    }
+		}
+		for(int i=0;i<n;i++){
+			if(b[i] == 0){
+				System.out.println("O número " + n1[i] + " é primo!");
 			}
-	        else{
-	        	b[i]=1;
-	        }
-	    }
-		
-		
+			else{
+				System.out.println("O número " + n1[i] + " não é primo!");
+			}
+		}
 		
 	}
 
