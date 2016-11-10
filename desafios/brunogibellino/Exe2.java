@@ -12,8 +12,10 @@ public class Exe2 {
 		// TODO Auto-generated method stub
 
 		/*
-		 * Pedir um numero N e inserir num array N números
-		 * Verificar e mostrar quais são primos e quais não são.
+		 * Desafio nivel 2
+		 * 
+		 * 1) Pedir um numero N e inserir num array N números
+		 * 2) Verificar e mostrar quais são primos e quais não são.
 		 */
 		
 		int n;
@@ -35,7 +37,7 @@ public class Exe2 {
 		
 		for(int j=0; j<n;j++){
 			for(int i=(n1[j]-1);i>=2;i-=1){
-				if((n1[i] % i) == 1){
+				if((n1[j] % i) == 1){
 					b[j]=0;
 				}
 		        else{
