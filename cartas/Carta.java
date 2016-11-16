@@ -3,14 +3,14 @@ public class Carta {
 
 	public int naipe;
 	public String nome;
-	public int pontucao;
+	public int pontuacao;
 	
 	public Carta(String nome, int naipe, int pont) {
 		// TODO Auto-generated constructor stub
 		
 		this.naipe = naipe;
 		this.nome = nome;
-		this.pontucao = pont;
+		this.pontuacao = pont;
 	}
 
 	public int getNaipe() {
@@ -22,11 +22,11 @@ public class Carta {
 	}
 
 	public int getPontucao() {
-		return pontucao;
+		return pontuacao;
 	}
 
-	public void setPontucao(int pontucao) {
-		this.pontucao = pontucao;
+	public void setPontucao(int pont) {
+		this.pontuacao = pont;
 	}
 
 }
