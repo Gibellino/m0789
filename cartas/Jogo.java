@@ -1,15 +1,11 @@
 
 public class Jogo {
 
-	public Carta baralho;
-	protected Jogador jogador;
+	public java.util.Vector baralho;
+	protected java.util.Vector jogadores;
 	
-	public Jogo() {
-		// TODO Auto-generated constructor stub
-	}
 	
-	public void distribuirPontuacao(int pont){
-		baralho.setPontucao(pont);
+	public void distribuirPontuacao(){
 	}
 
 }
