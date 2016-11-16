@@ -25,7 +25,7 @@ public class Exe2 {
 		
 		Scanner read = new Scanner(System.in);
 		
-		System.out.println("Quantos números quer?");
+		System.out.println(" Quantos números quer?");
 		n = read.nextInt();
 		
 		n1 = new int[n];
@@ -46,6 +46,9 @@ public class Exe2 {
 		        }
 		    }
 		}
+		
+		System.out.println("");
+		
 		for(int i=0;i<n;i++){
 			if(b[i] == 0){
 				System.out.println("O número " + n1[i] + " é primo!");
