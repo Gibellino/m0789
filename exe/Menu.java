@@ -14,7 +14,9 @@ public class Menu {
 		int op;
 
 		do{
-			System.out.print("\n\tMenu:\n 1- Calculadora gastos;\n 2 - Média de golos;\n 0 - Sair.\n\n "
+			System.out.print("\n\tMenu:\n 1- Calculadora gastos;"
+					+ "\n 2 - Média de golos;"
+					+ "\n 0 - Sair.\n\n "
 					+ "Escolha uma opção: "); 
 			op = read.nextInt();
 			
