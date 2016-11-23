@@ -44,10 +44,10 @@ public class Admin extends Carro{
 			//Tem que se inicializar o array de objecto
 			carro[i] = new Carro();
 			
+			read.nextLine();
+			
 			System.out.print("Insira a marca do carro " + (i+1) + ": ");
 			carro[i].setMarca(read.nextLine());
-			
-			read.nextLine();
 			
 			System.out.print("Insira o modelo do carro " + (i+1) + ": ");
 			carro[i].setModelo(read.nextLine());
@@ -60,7 +60,7 @@ public class Admin extends Carro{
 			
 			do{
 			
-			System.out.print("Insira o combustível do carro " + (i+1) + " :\n 1 - Diesel;\n 2 - Gasolina;\n 3 - GPL;\n 4 - Elétrico;\n");
+			System.out.print("Combustível:\n 1 - Diesel;\n 2 - Gasolina;\n 3 - GPL;\n 4 - Elétrico;\nInsira o combustível do carro " + (i+1) + ": ");
 			c = read.nextInt();
 			
 			switch(c){
