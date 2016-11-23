@@ -1,4 +1,4 @@
-package dia231116;
+package stand;
 
 import java.util.Scanner;
 
@@ -72,15 +72,20 @@ public class Admin extends Carro{
 	}
 	
 	public void mostrar(){
-		for(int i=0;i<carro.length;i++){
-			System.out.println("\tCarro " + (i+1) + "\n");
-			System.out.println("Marca: " + carro[i].getMarca());
-			System.out.println("Modelo: " + carro[i].getModelo());
-			System.out.println("Cilindrada: " + carro[i].getCc());
-			System.out.println("Cavalagem: " + carro[i].getCv());
-			System.out.println("Combustível: " + carro[i].getComb());
-			System.out.println("Cor: " + carro[i].getCor());
-			System.out.println("Preço: " + carro[i].getPreco());
+		if (carro == null) {
+			System.out.println("\nNão há carros!");
+		}
+		else{
+			for(int i=0;i<carro.length;i++){
+				System.out.println("\n\tCarro " + (i+1) + "\n");
+				System.out.println("Marca: " + carro[i].getMarca());
+				System.out.println("Modelo: " + carro[i].getModelo());
+				System.out.println("Cilindrada: " + carro[i].getCc());
+				System.out.println("Cavalagem: " + carro[i].getCv());
+				System.out.println("Combustível: " + carro[i].getComb());
+				System.out.println("Cor: " + carro[i].getCor());
+				System.out.println("Preço: " + carro[i].getPreco());
+			}
 		}
 	}
 	

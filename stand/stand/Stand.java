@@ -1,4 +1,4 @@
-package dia231116;
+package stand;
 
 import java.util.Scanner;
 
