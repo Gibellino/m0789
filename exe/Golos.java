@@ -69,6 +69,8 @@ public class Golos {
 		System.out.println(" A media de golos da equipa " + equipas[1] + " é " + media2);
 		System.out.println(" A media de golos da equipa " + equipas[2] + " é " + media3);
 		System.out.println(" A media de golos da equipa " + equipas[3] + " é " + media4);
+		
+		read.close();
+		
 	}
-
 }

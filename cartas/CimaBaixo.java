@@ -3,7 +3,7 @@ public class CimaBaixo extends Jogo{
 
 	public CimaBaixo() {
 		
-		Carta asespadas = new Carta();
+		/*Carta asespadas = new Carta();
 		
 		asespadas.setPontucao(11);
 		asespadas.setNaipe(3);
@@ -11,7 +11,7 @@ public class CimaBaixo extends Jogo{
 		
 		baralho.add(asespadas);
 		
-		Carta manilhaOuros = new Carta(2, "7", 10);
+		Carta manilhaOuros = new Carta(2, "7", 10);*/
 	}
 
 }
