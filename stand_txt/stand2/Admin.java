@@ -1,16 +1,32 @@
 package stand2;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class Admin extends Carro{
 	
 	Scanner read = new Scanner(System.in);
+	File fich = new File("stand.txt");
+	PrintWriter esc;
 	
 	Carro[] carro;
 	
 	public Admin() {
 		// TODO Auto-generated constructor stub
 
+	}
+	
+	public void criarTxt() throws FileNotFoundException{
+		 try{
+			 if(fich.exists()==false){
+				 fich.createNewFile();
+			 }
+		}catch(IOException e){
+			System.out.println("Ficheiro não encontrado/criado!");
+		}
 	}
 	
 	public void inserir(){

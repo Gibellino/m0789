@@ -1,5 +1,5 @@
 
-public class Personagem {
+public class Personagem extends Arma{
 
 	protected int attack;
 	protected int defense;

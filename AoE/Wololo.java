@@ -5,7 +5,7 @@ public class Wololo extends Personagem{
 	Scanner read = new Scanner(System.in);
 	Personagem[] wololo;
 	
-	public int conversion;
+	public int[] conversion;
 	
 	public Wololo() {
 		// TODO Auto-generated constructor stub
@@ -13,8 +13,13 @@ public class Wololo extends Personagem{
 	
 	public void addW(){
 		
+		int n = 0;
+		
 		System.out.print("Quantos Wololos quer adicionar? ");
-		wololo = new Personagem[read.nextInt()];
+		n = read.nextInt();
+		
+		wololo = new Personagem[n];
+		conversion = new int[n];
 		
 		System.out.println("");
 		
@@ -29,6 +34,9 @@ public class Wololo extends Personagem{
 			System.out.print("Insira o HP do Wololo " + (i+1) + ": ");
 			wololo[i].setHp(read.nextInt());
 			
+			System.out.print("Insira o ratio de conversão do Wololo " + (i+1) + ": ");
+			conversion[i] = read.nextInt();
+			
 			System.out.println("");
 		}
 	}
@@ -40,6 +48,7 @@ public class Wololo extends Personagem{
 			System.out.print("\n Ataque: " + wololo[i].getAttack());
 			System.out.print("\n Defesa: " + wololo[i].getDefense());
 			System.out.print("\n Vida: " + wololo[i].getHp());
+			System.out.print("\n Ratio de Conversão: " + conversion[i]);
 		}
 	}
 
