@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Peasant extends Personagem{
+public class Peasant extends Character{
 
-	Personagem[] peasant;
+	Character[] peasant;
 	
 	Scanner read = new Scanner(System.in);
 	
@@ -14,12 +14,12 @@ public class Peasant extends Personagem{
 	public void addP(){
 		
 		System.out.print("Quantos Peasants quer adicionar? ");
-		peasant = new Personagem[read.nextInt()];
+		peasant = new Character[read.nextInt()];
 		
 		System.out.println("");
 		
 		for(int i=0;i<peasant.length;i++){
-			peasant[i] = new Personagem();
+			peasant[i] = new Character();
 			System.out.print("Insira o ataque do Peasant " + (i+1) + ": ");
 			peasant[i].setAttack(read.nextInt());
 			

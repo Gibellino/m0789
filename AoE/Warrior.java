@@ -1,7 +1,7 @@
 
-public class Warrior extends Personagem{
+public class Warrior extends Character{
 
-	Personagem[] warrior;
+	Character[] warrior;
 	
 	public Warrior() {
 		

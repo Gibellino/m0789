@@ -1,7 +1,7 @@
 
-public class Cavaleiros {
+public class Knight {
 
-	public Cavaleiros() {
+	public Knight() {
 		// TODO Auto-generated constructor stub
 	}
 

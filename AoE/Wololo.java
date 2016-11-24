@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Wololo extends Personagem{
+public class Wololo extends Character{
 
 	Scanner read = new Scanner(System.in);
-	Personagem[] wololo;
+	Character[] wololo;
 	
 	public int[] conversion;
 	
@@ -18,13 +18,13 @@ public class Wololo extends Personagem{
 		System.out.print("Quantos Wololos quer adicionar? ");
 		n = read.nextInt();
 		
-		wololo = new Personagem[n];
+		wololo = new Character[n];
 		conversion = new int[n];
 		
 		System.out.println("");
 		
 		for(int i=0;i<wololo.length;i++){
-			wololo[i] = new Personagem();
+			wololo[i] = new Character();
 			System.out.print("Insira o ataque do Wololo " + (i+1) + ": ");
 			wololo[i].setAttack(read.nextInt());
 			

@@ -1,11 +1,11 @@
 
-public class Personagem extends Arma{
+public class Character extends Weapon{
 
 	protected int attack;
 	protected int defense;
 	protected int hp;
 	
-	public Personagem() {
+	public Character() {
 		// TODO Auto-generated constructor stub
 	}
 

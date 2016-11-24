@@ -1,10 +1,10 @@
 
-public class Arma {
+public class Weapon {
 
 	protected String nome;
 	protected int poder;
 	
-	public Arma() {
+	public Weapon() {
 		// TODO Auto-generated constructor stub
 	}
 	

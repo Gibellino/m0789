@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class Infantaria extends Warrior{
+public class Infantry extends Warrior{
 
 	Scanner read = new Scanner(System.in);
 	
 	Warrior[] tropa;
 	
-	public Infantaria() {
+	public Infantry() {
 		// TODO Auto-generated constructor stub
 	}
 
