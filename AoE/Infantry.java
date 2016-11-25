@@ -45,14 +45,8 @@ public class Infantry extends Warrior{
 			
 			}while(c == 1);
 			
-			if(tropa[i].getNome() == "Espada"){
 			System.out.print("Insira o poder do " + tropa[i].getNome() + "do Tropa " + (i+1) + ": ");
 			tropa[i].setPoder(read.nextInt());
-			}
-			else{
-				System.out.print("Insira o poder da " + tropa[i].getNome() + "do Tropa " + (i+1) + ": ");
-				tropa[i].setPoder(read.nextInt());
-			}
 			
 			System.out.println("");
 		}
