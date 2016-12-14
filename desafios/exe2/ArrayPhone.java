@@ -15,33 +15,38 @@ public class ArrayPhone {
 		nome = new String[n];
 		
 		for(int i=0; i<n; i++){
+			read.nextLine();
 			System.out.println("Insira o nome da pessoa " + (i+1) + ": ");
 			nome[i] = read.nextLine();
 			System.out.println("Insira o numero de telefone de " + nome[i] + ": ");
 			tlm[i] = read.nextInt();
+			System.out.println(" ");
 		}
 	}
 	
 	public void search(int n, String nome2){
 		
-		int ver = 0;
+		
+		int conf = 0; 
 		
 		for(int i=0;i<n;i++){
-			if(nome2 == nome[i]){
-				ver = 1;
+			
+			boolean ver = false;
+			
+			if(nome2.equals(nome[i])){
+				conf = i;
+				ver = true;
 			}
 			else{
-				ver = 2;
+				ver = false;
 			}
-			if(ver == 1){
-				System.out.println("\nO numero de telefone de " + nome[i] + " é " + tlm[i] + ".");
+			
+			if(ver == true){
+				System.out.println("\nO numero de telefone de " + nome[conf] + " é " + tlm[conf] + ".");
 			}
 			else{
 				continue;
 			}
-		}
-		if(ver == 2){
-			System.out.println("\nPessoa não inserida!");
 		}
 	}
 	
@@ -78,6 +83,7 @@ public class ArrayPhone {
 		
 		case 2:
 			System.out.println("\nInsira o nome da pessoa que quer: ");
+			read.nextLine();
 			String nome = read.nextLine();
 			search(n,nome);
 			break;
@@ -85,7 +91,11 @@ public class ArrayPhone {
 		case 0: System.out.print("\nVai Sair!\n"); break;
 		
 		default: System.out.print("\nOpção Inválida!\n");
+		
 		}
+		
+		System.out.println(" ");
+		
 	}while(op != 0);
 }
 

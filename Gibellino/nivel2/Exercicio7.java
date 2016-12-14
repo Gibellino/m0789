@@ -10,7 +10,7 @@ public class Exercicio7 {
 		// TODO Auto-generated constructor stub
 	
 		/*
-		 * Dificuldade [2]
+		 * 7. Dificuldade [2]
 		 * 
 		 * Uma equipa de Formula 1 quer comparar os tempos de volta dos seus três pilotos.
 		 *

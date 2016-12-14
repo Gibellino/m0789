@@ -13,6 +13,8 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		
+		
 		//new Exercicio3(); // 3 
 		//new Exercicio6(); // 2 
 		//new Exercicio7(); // 2 
