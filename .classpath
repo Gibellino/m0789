@@ -3,7 +3,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="desafios"/>
 	<classpathentry kind="src" path="cartas"/>
-	<classpathentry kind="src" path="exe"/>
+	<classpathentry kind="src" path="Gibellino"/>
 	<classpathentry kind="src" path="stand"/>
 	<classpathentry kind="src" path="stand_txt"/>
 	<classpathentry kind="src" path="AoE"/>
