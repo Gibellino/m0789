@@ -13,14 +13,14 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//new Exercicio3(); // 3 feito
-		//new Exercicio6(); // 2 feito
-		//new Exercicio7(); // 2
-		//new Exercicio8(); // 3 feito
-		//new Exercicio10(); // 3 feito
-		//new Exercicio11(); // 1 feito
-		//new Exercicio15(); // 3 feito
-		//new Exercicio19(); // 3 feito
+		//new Exercicio3(); // 3 
+		//new Exercicio6(); // 2 
+		//new Exercicio7(); // 2 
+		//new Exercicio8(); // 3 
+		//new Exercicio10(); // 3 
+		//new Exercicio11(); // 1
+		//new Exercicio15(); // 3
+		//new Exercicio19(); // 3
 		
 		
 	}
