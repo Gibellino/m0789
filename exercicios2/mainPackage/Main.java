@@ -1,9 +1,13 @@
 package mainPackage;
 
+import nivel0.Exercicio17;
 import nivel0.Exercicio4;
 import nivel1.Exercicio1;
 import nivel1.Exercicio13;
 import nivel1.Exercicio14;
+import nivel1.Exercicio16;
+import nivel1.Exercicio18;
+import nivel1.Exercicio20;
 import nivel1.Exercicio5;
 import nivel2.Exercicio12;
 import nivel2.Exercicio2;
@@ -25,7 +29,11 @@ public class Main {
 		//new Exercicio9(); // 2 Feito
 		//new Exercicio12(); // 2 Feito
 		//new Exercicio13(); // 1 Feito
-		new Exercicio14(); // 1
+		//new Exercicio14(); // 1 Feito
+		//new Exercicio16(); // 1 Feito
+		//new Exercicio17(); // 0 Feito
+		//new Exercicio18(); //1 Feito
+		new Exercicio20(); // 1
 	}
 
 }
